@@ -26,7 +26,7 @@ schema_view = get_schema_view(
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("api/v1/", include("account.urls")),
-    # path("api/v1/fitness/", include("fitness.urls")),
+    path("api/v1/fitness/", include("fitness.urls")),
     path(
         "swagger<format>/", schema_view.without_ui(cache_timeout=0), name="schema-json"
     ),
