@@ -2,6 +2,7 @@
 
 This project implements a RESTful API for managing personalized workout plans and tracking fitness goals. It allows users to create, manage, and track custom workout plans, incorporating predefined exercises with detailed descriptions.
 
+![Untitled (2)](https://github.com/hossainchisty/Personalized-Workout-Planner-APIs/assets/62835101/0ea4f405-5661-4f50-a9e9-ff9f5dce6cd3)
 
 ## Endpoints
 
