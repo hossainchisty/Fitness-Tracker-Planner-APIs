@@ -1,4 +1,13 @@
-# 1.21.0 (2024-03-23)
+## [1.21.1](https://github.com/hossainchisty/Personalized-Workout-Planner-APIs/compare/v1.21.0...v1.21.1) (2024-03-25)
+
+
+### Bug Fixes
+
+* staticfiles serve in prod ([d0c3779](https://github.com/hossainchisty/Personalized-Workout-Planner-APIs/commit/d0c3779998ea086fafed5a4031ff843d0bae4f2c))
+
+
+
+# [1.21.0](https://github.com/hossainchisty/Personalized-Workout-Planner-APIs/compare/efac6c7acec2e91b47f85ec45096cc90d97dfdbf...v1.21.0) (2024-03-23)
 
 
 ### Features
