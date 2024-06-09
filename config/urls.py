@@ -8,6 +8,7 @@ from rest_framework_simplejwt.views import (
     TokenRefreshView,
     TokenVerifyView,
 )
+from django.shortcuts import redirect
 
 schema_view = get_schema_view(
     openapi.Info(
@@ -23,6 +24,11 @@ schema_view = get_schema_view(
 )
 
 
+# Define the redirect view
+def redirect_to_swagger(request):
+    return redirect("schema-swagger-ui")
+
+
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("api/v1/", include("account.urls")),
@@ -36,4 +42,5 @@ urlpatterns = [
         name="schema-swagger-ui",
     ),
     path("redoc/", schema_view.with_ui("redoc", cache_timeout=0), name="schema-redoc"),
+    path("", redirect_to_swagger),  # Redirect root URL to Swagger UI
 ]
