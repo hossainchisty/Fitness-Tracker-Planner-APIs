@@ -14,9 +14,9 @@ from django.shortcuts import redirect
 
 schema_view = get_schema_view(
     openapi.Info(
-        title="Workout Plan API",
+        title="Fitness Tracker",
         default_version="v1",
-        description="RESTful API for your Personalized Workout Plan system",
+        description="Fitness Tracker RESTful API for your Personalized Workout Plan",
         terms_of_service="https://www.google.com/policies/terms/",
         contact=openapi.Contact(email="hossain.chisty11@gmail.com"),
         license=openapi.License(name="Apache-2.0 license"),
