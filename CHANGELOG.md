@@ -1,3 +1,12 @@
+## [1.22.1](https://github.com/hossainchisty/Personalized-Workout-Planner-APIs/compare/v1.22.0...v1.22.1) (2024-06-09)
+
+
+### Bug Fixes
+
+* Swagger UI on prod ([15b94cc](https://github.com/hossainchisty/Personalized-Workout-Planner-APIs/commit/15b94ccedaad8580db3b5f16bc18564fb49932f4))
+
+
+
 # [1.22.0](https://github.com/hossainchisty/Personalized-Workout-Planner-APIs/compare/v1.21.1...v1.22.0) (2024-06-09)
 
 
