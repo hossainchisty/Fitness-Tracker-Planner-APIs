@@ -1,3 +1,12 @@
+# [1.22.0](https://github.com/hossainchisty/Personalized-Workout-Planner-APIs/compare/v1.21.1...v1.22.0) (2024-06-09)
+
+
+### Features
+
+* Added redirect to swagger API docs ([df7f5e4](https://github.com/hossainchisty/Personalized-Workout-Planner-APIs/commit/df7f5e49178eec09e619ea9aa2ec8e5118307658))
+
+
+
 ## [1.21.1](https://github.com/hossainchisty/Personalized-Workout-Planner-APIs/compare/v1.21.0...v1.21.1) (2024-03-25)
 
 
